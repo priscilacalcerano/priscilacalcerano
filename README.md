@@ -32,6 +32,11 @@ Automation    Python scripting · Claude Code · API basics
 
 ## Projects
 
+### [tfm-lead-scoring-b2b](https://github.com/priscilacalcerano/tfm-lead-scoring-b2b)
+LightGBM classifier trained on real outbound prospecting data from a Microsoft Gold Partner's sales team. Features combine engineered signals from LinkedIn enrichment data, K-Means segmentation, and dimensionality-reduced job title embeddings. SHAP analysis revealed that mid-level decision makers (VPs, Directors) outperform C-level contacts by 2x in response rate, a finding that directly challenged the client's targeting assumptions.
+
+`python` `lightgbm` `umap` `shap` `optuna` `kmeans` `sales-ml`
+
 ### [outbound-contact-segmentation](https://github.com/priscilacalcerano/outbound-contact-segmentation)
 Python pipeline that takes raw CRM exports and produces segmented, channel-ready contact lists for a B2B outbound team of 4 BDRs across LATAM, EMEA, Spain, and Italy. Handles territory assignment, buyer/influencer/referrer caps, language-based call routing, 3-month backup reserves, and formatted Excel summaries for weekly briefings.
 
@@ -41,11 +46,6 @@ Python pipeline that takes raw CRM exports and produces segmented, channel-ready
 Web scraping pipeline for public procurement data that extracts and structures bid listings for commercial targeting.
 
 `python` `web-scraping` `b2b-sales`
-
-### [tfm-lead-scoring-b2b](https://github.com/priscilacalcerano/tfm-lead-scoring-b2b)
-LightGBM classifier trained on real outbound prospecting data from a Microsoft Gold Partner's sales team. Features combine engineered signals from LinkedIn enrichment data, K-Means segmentation, and dimensionality-reduced job title embeddings. SHAP analysis revealed that mid-level decision makers (VPs, Directors) outperform C-level contacts by 2x in response rate, a finding that directly challenged the client's targeting assumptions.
-
-`python` `lightgbm` `umap` `shap` `optuna` `kmeans` `sales-ml`
 
 ---
 
