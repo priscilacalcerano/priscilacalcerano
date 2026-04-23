@@ -42,7 +42,7 @@ Web scraping pipeline for public procurement data that extracts and structures b
 
 `python` `web-scraping` `b2b-sales`
 
-### B2B Lead Scoring Model *(coming soon)*
+### [tfm-lead-scoring-b2b](https://github.com/priscilacalcerano/tfm-lead-scoring-b2b)
 LightGBM classifier trained on real outbound prospecting data from a Microsoft Gold Partner's sales team. Features combine engineered signals from LinkedIn enrichment data, K-Means segmentation, and dimensionality-reduced job title embeddings. SHAP analysis revealed that mid-level decision makers (VPs, Directors) outperform C-level contacts by 2x in response rate, a finding that directly challenged the client's targeting assumptions.
 
 `python` `lightgbm` `umap` `shap` `optuna` `kmeans` `sales-ml`
@@ -51,7 +51,7 @@ LightGBM classifier trained on real outbound prospecting data from a Microsoft G
 
 ## Background
 
-2 years as BDR, then 1 year as GTM Engineer at a B2B sales consultancy managing outbound infrastructure for 15+ simultaneous client accounts across cybersecurity, enterprise software, staff augmentation, and e-commerce. MSc in Data Science & AI, Nuclio Digital School.
+2 years as BDR, then 1 year as GTM Engineer at a B2B sales consultancy managing outbound infrastructure for 15+ simultaneous client accounts across cybersecurity, enterprise software, staff augmentation, HR and e-commerce. MSc in Data Science & AI, Nuclio Digital School.
 
 The combination is unusual: most GTM engineers don't have ML training, and most data scientists have never configured a BDR identity or written a cold outreach sequence. I work in both.
 
